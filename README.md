@@ -1,5 +1,10 @@
 # Mendelieve.io
 
+<!-- adam-badges:start -->
+[![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/Mendelieve.io?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/Mendelieve.io/commits) [![visites](https://hits.sh/github.com/Adam-Blf/Mendelieve.io.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/Mendelieve.io/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/Mendelieve.io?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/Mendelieve.io/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/Mendelieve.io?style=flat-square)](https://github.com/Adam-Blf/Mendelieve.io) [![license](https://img.shields.io/github/license/Adam-Blf/Mendelieve.io?style=flat-square&color=D4A437)](LICENSE)
+<!-- adam-badges:end -->
+
+
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
