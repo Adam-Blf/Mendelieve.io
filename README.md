@@ -15,6 +15,23 @@ Application web interactive du tableau periodique de Mendeleiev.
 
 **Live** · https://adam-blf.github.io/Mendelieve.io/
 
+## Architecture
+
+```mermaid
+flowchart TB
+    A["PeriodicTable.jsx<br/>composant React unique"]
+    B["elementsData<br/>118 elements statiques · symbole · numero · position"]
+    C["Grille interactive<br/>118 cases · filtres categorie · recherche"]
+    D["Panneau detail<br/>element selectionne"]
+    E["API Wikipedia<br/>description · image enrichies"]
+    F["GitHub Pages<br/>hebergement statique"]
+    B --> A
+    A --> C
+    C --> D
+    D --> E
+    A --> F
+```
+
 ---
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adambeloucif/) ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Adam-Blf.Mendelieve.io)
