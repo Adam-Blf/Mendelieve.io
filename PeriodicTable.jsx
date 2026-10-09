@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Search, X, Info, Atom, FlaskConical, Filter, Layers, Zap, Globe, Volume2, Loader2, ExternalLink } from 'lucide-react';
+import { Atom, Bolt, Globe, InfoCircle, Layers, Loader, Search, SquareShare, VolumeHigh, X } from "reicon-react";
 
 // --- DATA ---
 // Nous conservons la structure de base (Position, Symbole, Numéro) en statique pour garantir un rendu instantané de la grille.
@@ -467,7 +467,7 @@ export default function PeriodicTable() {
                     className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-blue-400 transition-colors"
                     title="Prononcer"
                   >
-                    <Volume2 className="w-5 h-5" />
+                    <VolumeHigh className="w-5 h-5" />
                   </button>
                 </div>
                 
@@ -480,12 +480,12 @@ export default function PeriodicTable() {
                 
                 <div className="bg-white/5 rounded-xl p-4 border border-white/5 hover:border-white/10 transition-colors min-h-[120px]">
                   <h3 className="text-gray-400 text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <Info className="w-3 h-3" /> Résumé Encyclopédique
+                    <InfoCircle className="w-3 h-3" /> Résumé Encyclopédique
                   </h3>
                   
                   {isWikiLoading ? (
                     <div className="flex justify-center items-center py-4">
-                      <Loader2 className="w-6 h-6 text-blue-400 animate-spin" />
+                      <Loader className="w-6 h-6 text-blue-400 animate-spin" />
                     </div>
                   ) : (
                     <p className="text-sm text-gray-300 leading-relaxed text-justify">
@@ -514,7 +514,7 @@ export default function PeriodicTable() {
                    </div>
                    <div className="bg-white/5 rounded-lg p-3 border border-white/5 col-span-2">
                       <div className="text-xs text-gray-500 uppercase mb-1 flex items-center gap-1">
-                        <Zap className="w-3 h-3" /> Découverte
+                        <Bolt className="w-3 h-3" /> Découverte
                       </div>
                       <div className="text-sm flex flex-col">
                         <span className="text-white font-medium">{selectedElement.year}</span>
@@ -529,7 +529,7 @@ export default function PeriodicTable() {
                    rel="noreferrer"
                    className="flex items-center justify-center w-full py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium transition-all shadow-lg shadow-blue-900/20 hover:shadow-blue-600/40 text-sm mt-4 gap-2"
                 >
-                   <ExternalLink className="w-4 h-4" />
+                   <SquareShare className="w-4 h-4" />
                    Voir l'article complet
                 </a>
 
