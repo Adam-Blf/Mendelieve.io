@@ -1,6 +1,6 @@
 # Mendelieve.io
 
-[![version](https://img.shields.io/badge/version-0.1.0-000091?style=flat-square)](https://github.com/Adam-Blf/Mendelieve.io/releases)
+[![version](https://img.shields.io/badge/version-0.2.0-000091?style=flat-square)](https://github.com/Adam-Blf/Mendelieve.io/releases)
 
 <!-- adam-badges:start -->
 [![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/Mendelieve.io?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/Mendelieve.io/commits) [![visites](https://hits.sh/github.com/Adam-Blf/Mendelieve.io.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/Mendelieve.io/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/Mendelieve.io?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/Mendelieve.io/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/Mendelieve.io?style=flat-square)](https://github.com/Adam-Blf/Mendelieve.io) [![license](https://img.shields.io/github/license/Adam-Blf/Mendelieve.io?style=flat-square&color=D4A437)](LICENSE)
@@ -15,6 +15,8 @@
 Application web interactive du tableau periodique de Mendeleiev.
 
 **Live** - https://adam-blf.github.io/Mendelieve.io/
+
+**Icônes** - [Reicon](https://reicon.dev) via `reicon-react` (`npm install reicon-react`).
 
 ## Architecture
 
